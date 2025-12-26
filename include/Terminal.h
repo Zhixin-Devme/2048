@@ -13,6 +13,7 @@ private:
     struct termios orig;
     struct termios raw;
 public:
+    static bool screen_resized;
     enum class Direction {
         UP,
         DOWN,
